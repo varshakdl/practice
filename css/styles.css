@@ -1,0 +1,551 @@
+.html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style:none;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: #202020;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.big{
+    color: #202020;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.site-header {
+    padding: 15px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.desktop-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.site-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.site-navigation > ul {
+    display: flex;
+    gap: 65px;
+}
+
+.site-actions {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+
+.site-header .request-btn {
+    border-radius: 55.5px;
+    background: #92C1F9;
+    padding: 14px 23px;
+    text-decoration: none;
+}
+
+
+
+.nav-panel{
+    display: none;
+}
+
+#side-nav-panel{
+    display: none;
+}
+
+.box_wrapper {
+    display: flex;
+    gap:80px;
+}
+
+.card-list ul>li:before {
+    content: url('../images/blue-four-point-star.png');
+    margin-right: 10px;
+}
+
+.box_wrapper h3 {
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: initial;
+}
+
+.section-head {
+    display: flex;
+}
+
+
+
+#what-we-consider{
+    color: #fff;
+
+}
+
+#first-sec{
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+
+.first_inner_wrapper {
+    display: flex;
+}
+
+.first-left h1 {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    /* display: flex; */
+    justify-content: flex-start;
+    position: relative;
+}
+
+a.contact-btn {
+    background: #92C1F9;
+    border-radius: 119px;
+    height: 36.17px;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 15px;
+    margin-right: 50px;
+}
+
+.contact-btn img {
+    height: 36.17px;
+    margin-left: 20px;
+}
+
+.btn-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.request-btn{
+    text-decoration: underline;
+}
+
+.first-left {
+    flex-basis: 50%;
+}
+
+.first-right {
+    flex-basis: 50%;
+    padding: 30px;
+    background-image: url(../images/right-banner-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+}
+
+.play-btn a {
+    font-size: 12px;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+.play-btn img {
+    margin-right: 10px;
+    height: 15px;
+}
+
+a.play-btn{
+    border: 1px solid;
+    border-radius: 50px;
+    font-size:12px;
+    padding: 0px 15px;
+    line-height: 40px;
+    top: -10px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.first-right h2 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.first-right p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #fff;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+img.floting-arrow {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+}
+
+.faq_inner_wrapper{
+    padding: 50px 36px 49px 50px;
+}
+
+#what-we-consider{
+    padding: 80px 0;
+}
+
+.head_wrapper {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 40px;
+}
+
+.bg-black.back-flower{
+    position: relative;
+}
+.bg-black.back-flower:before {
+    content: url('../images/right-flower.png');
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    opacity: 80%;
+}
+
+.head_wrapper h2 {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: -4px;
+    text-align: left;
+    width: 55%;
+}
+
+.head_wrapper h2:before{
+    content: url('../images/four-point-star.png');
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+}
+
+.what_we_do {
+    margin-bottom: 80px;
+}
+
+.what_we_do .head_wrapper h2:before {
+    display: none;
+}
+
+
+.what_we_do .head_wrapper h2{
+    color: #323232;
+}
+
+.what_we_do .head_wrapper h2:after {
+    content: url('../images/black-star.png');
+    width: 32px;
+    height: 32px;
+    margin-left: 24px;
+}
+
+.what_we_do  .head_wrapper .big{
+    color: #323232;
+}
+
+.what_we_do .card-list li {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    display: flex;
+    color: #323232;
+    opacity: 80%;
+}
+
+.what_we_do .card-list {
+    margin-top: 24px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.what_we_do .box_wrapper a {
+    background: #92C1F9;
+    padding: 16px 37px 16px 37px;
+    border-radius: 8px;
+    gap: 10px;
+    margin-top: 90px;
+}
+
+.head_wrapper .big {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    width: 50%;
+    color: rgb(255 255 255 / 80%);
+}
+
+.body_wrapper {
+    display: flex;
+    gap: 80px;
+    padding: 0px 120px 0px 120px;
+}
+
+.body_inner_wrapper h4 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+.body_inner_wrapper .light {
+    font-weight: 400;
+}
+
+.body_inner_wrapper {
+    padding: 32px;
+    border-radius: 8px;
+    border: 2px solid rgb(255 255 255 / 8%);
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-content {
+    gap:24px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card-btn {
+    padding: 16px 22px 16px 22px;
+    background: rgb(255 255 255 / 8%);
+    width: 100%;
+    text-align: center;
+}
+
+.card-btn a {
+    color: #fff;
+}
+
+.card-list ul {
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body_inner_wrapper .divider {
+    margin: 20px auto;
+    text-align: center;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.accordion {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #c5c5c5;
+    color: #333;
+  }
+
+  .accordion-item:last-child{
+    border: none;
+  }
+
+  .accordion-item h3 {
+    padding: 1em 0;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+  }
+
+  .accordion-item h3::before {
+    content: "+";
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+  }
+  
+  .accordion-item.active h3::before {
+    content: "-";
+  }
+
+  .accordion-content {
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.4s ease-out; 
+    padding: 0 1em;
+  }
+
+  .accordion-content p {
+    padding: 1em 0;
+    margin: 0;
+  }
+  
+  /* Add this class to .accordion-content when the accordion item is active/open */
+  .accordion-content.active {
+    max-height: auto; /* Adjust as needed */
+  }
+  
+  
+  
+
+
+footer {
+    min-height: 386px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f7f7f7;
+    text-align: center;
+    position: relative;
+}
+
+.footer-wrapper:before{
+    content: url(../images/bottom-flower.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer-wrapper:after{
+    content: url(../images/top-flower.png);
+    position: absolute;
+    bottom: -10px;
+    left:0;
+
+}
+
+.footer-wrapper p{
+    font-size: 14px;
+    font-weight: 500;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 21px;
+}
+
+
+
+
+
+
+@media ( max-width: 768px ) {
+
+    .desktop-menu {
+        display: none;
+    }
+    
+    div#side-nav-panel {
+        display: none;
+    }
+    
+    .nav-panel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 33px;
+    }
+    .first-left {
+        flex-basis: 100%;
+    }
+    
+    .first-right {
+        flex-basis: 100%;
+    }
+    .first_inner_wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .first-left h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    a.play-btn{
+        top: 0;
+    }
+}
